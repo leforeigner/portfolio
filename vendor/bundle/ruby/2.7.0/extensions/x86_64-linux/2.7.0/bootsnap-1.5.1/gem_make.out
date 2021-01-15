@@ -1,0 +1,20 @@
+current directory: /home/ubuntu/portfolio/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+/usr/local/rbenv/versions/2.7.0/bin/ruby -I /usr/local/rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20210115-10589-1n4wp69.rb extconf.rb
+creating Makefile
+
+current directory: /home/ubuntu/portfolio/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/portfolio/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c:277:65: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+  sprintf(*cache_path, "%s/%02x/%014llx", cachedir, first_byte, remainder);
+                                ~~~~~~~                         ^~~~~~~~~
+                                %014lx
+1 warning generated.
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/ubuntu/portfolio/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210115-10589-zzqei6/bootsnap
