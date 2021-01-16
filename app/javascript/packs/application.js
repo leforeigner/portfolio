@@ -18,4 +18,4 @@ require("channels")
 
 import 'bootstrap';
 import '../stylesheets/application';
-import 'scripts';
+import "top"
